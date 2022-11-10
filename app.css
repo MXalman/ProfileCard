@@ -16,9 +16,10 @@
 body{
     min-height: 100vh;
     background-color:var(--Dark-cyan);
-    background-image:url(images/bg-pattern-top.svg);
-    background-repeat:no-repeat;
-    background-position: left -20rem top -35rem;
+    background:
+    url("../images/bg-pattern-top.svg") top -300px left -50px/contain no-repeat,
+    url("../images/bg-pattern-bottom.svg") bottom -350px right -50px/contain no-repeat;
+    background-color: hsl(185deg, 75%, 39%);
     display: flex;
     justify-content: center;
     align-items: center;
